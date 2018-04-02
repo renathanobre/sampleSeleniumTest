@@ -23,17 +23,15 @@ console.log(pathproject);
 
 driver.findElement(By.linkText('Details')).click();
 
-delay(14000)
+delay(16000)
     .then(() => {
         console.log("------Personal Information------");
-        driver.findElement(By.id('first_name')).sendKeys('Joana Hellena').then(() => {
-            console.log("firstname");
-        });
+        driver.findElement(By.id('first_name')).sendKeys('Joana Hellena');
         driver.findElement(By.id('last_name')).sendKeys('Dark Smith');
         driver.findElement(By.id('submitCreateNewAccount1')).click();
     });
 
-delay(17000)
+delay(18000)
     .then(() => {
         console.log("------Email------");
         driver.findElement(By.id('email')).sendKeys(newemail);
@@ -47,13 +45,13 @@ delay(22000)
         driver.findElement(By.id('submitCreateNewAccount')).click();
     });
 
-delay(27000)
+delay(29000)
     .then(() => {
         console.log("------Start Upload Resume------");
         driver.findElement(By.xpath("//div[@id='resumeBuilderEditOptions']/div/div[2]/button")).click();
     });
 
-delay(34000)
+delay(36000)
     .then(() => {
         console.log("------Set File------");
         driver.findElement(By.id("resumeParse2")).clear();
@@ -61,7 +59,7 @@ delay(34000)
         driver.findElement(By.id("uploadResumeBtn")).click();
     });
 
-delay(40000)
+delay(42000)
     .then(() => {
         console.log("------Publish------");
 
@@ -69,7 +67,7 @@ delay(40000)
 
     });
 
-delay(44000)
+delay(46000)
     .then(() => {
         console.log("------Result test------");
 
@@ -86,5 +84,4 @@ delay(44000)
             }
 
         }));
-
-    });
+});

@@ -75,7 +75,7 @@ delay(44000)
 
         console.log(driver.findElement(By.className("inform-publish-text")).getText().then(function(title) {
             if (title.startsWith('Congratulations')) {
-                console.log('success--'+ title);
+                console.log('success'+ title);
                 driver.quit();
                 return true;
 

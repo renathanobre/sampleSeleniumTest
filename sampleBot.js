@@ -23,6 +23,8 @@ console.log(pathproject);
 
 driver.findElement(By.linkText('Details')).click();
 
+driver.findElement(By.id('skipConnections')).click();
+
 delay(16000)
     .then(() => {
         console.log("------Personal Information------");

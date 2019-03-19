@@ -3,7 +3,7 @@
 **** Set up project ****
 > Command  Prompt : ```node --version```
 - **This should print the version number so you'll see something like this v0.10.31**
-> Run ```node -v``` if your version is under 8 it doesn't have the ability to handle the async command. You'll have to update Node here: //nodejs.org/en/
+> Run ```node -v``` if your version is under 8 it doesn't have the ability to handle the async command. You'll have to update Node here: nodejs.org/en/
 
 > Command  Prompt  again: ```node --version```
 *This should print the version number, something like this v0.10.31 as well
